@@ -1,6 +1,6 @@
 import React, { useState,useEffect } from "react";
 import logo from "../assets/logo-with-title-black-55GCaCS6.png";
-import logo from "../assets/logo-with-title-D7a_5BuJ.png";
+import logo_with_title from "../assets/logo-with-title-D7a_5BuJ.png";
 import { useDispatch, useSelector } from "react-redux";
 import { login, resetAuthSlice } from "../store/slices/authSlice";
 import { toast } from "react-toastify";
