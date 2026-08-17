@@ -1,7 +1,7 @@
 import React,{useState,useEffect} from "react";
 import { Link, Navigate, useParams } from "react-router-dom";
 import logo from "../assets/logo-with-title-black-55GCaCS6.png";
-import logo from "../assets/logo-with-title-D7a_5BuJ.png";
+import logo_with_title from "../assets/logo-with-title-D7a_5BuJ.png";
 import { useDispatch, useSelector } from "react-redux";
 import { resetAuthSlice, resetPassword } from "../store/slices/authSlice";
 import { toast } from "react-toastify";
